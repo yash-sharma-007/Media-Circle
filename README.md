@@ -1,5 +1,5 @@
 # FullStack Media Circle App
-#Technology used
+# Technology used
 
 React.js
 Node.js
