@@ -1,10 +1,13 @@
-# FullStack Media Circle App
-# Technology used
+# FullStack Media-Circle App
 
-React.js
-Node.js
-Express.js
-MongoDB
-MaterialUI
-Redux
+## Technologies Used
 
+- **Frontend:**
+  - React.js
+  - Material-UI
+  - Redux
+
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB
