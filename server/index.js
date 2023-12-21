@@ -20,6 +20,7 @@ import { users, posts } from "./data/index.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
 dotenv.config();
 const app = express();
 app.use(express.json());
@@ -51,7 +52,7 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
-/* MONGOOSE SETUP */
+/* MONGODB SETUP */
 const PORT = process.env.PORT || 5000;
 mongoose
   .connect(process.env.MONGO_URL, {
