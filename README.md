@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple steps.
    ```
 6. Run  following command in terminal inside server directory
    ```sh
-   npm run server
+   nodemon server.js
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
